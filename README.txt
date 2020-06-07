@@ -17,9 +17,15 @@ introduced after their lab02 (which is their own implementation of a linked list
 3. demonstrating how the use of GDB can help their debugging workflows in later labs and projects.
 4. concentrating on GDB, instead of containing two different subjects. 
 
-This lab does not have:
-- instructions on how to pull starter code, as this differs by quarter. 
-- instructions on pair programming, as this differs by lab.
-- a walkthrough on make and Makefiles. Since this is an important topic, I imagine it would be important
-to move to a different lab or assignment.
+This lab does not have instructions on how to pull starter code, instructions on pair programming, or
+instructions for submission, as these all differ by quarter. This lab also does not have the walkthrough
+on make and Makefiles present in the current GDB lab; since this is an important topic, I imagine it would 
+be important to move to a different lab or assignment.
+
+Other notes:
+- I used the same GDB commands summary as is already present in lab03, since it's a great resource.
+- It's possible that the code from this lab can be used dishonestly, if students give their debugged code
+to students in future quarters. However, I think the benefits outweigh this problem, since I've had students 
+come to ask about how to finish their linked list lab after the due date. It's also helpful for their pa01, 
+which utilizes a linkedlist.
 

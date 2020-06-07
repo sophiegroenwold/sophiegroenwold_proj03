@@ -67,8 +67,6 @@ int IntList::max() const {
     if (!ptr)
         return 0;
 
-    // correct implementation:
-    // int max = INT_MIN;
     int max = 0;
 
     while (ptr)

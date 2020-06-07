@@ -25,7 +25,8 @@ void test_1()
         list2.append(arr2[i]);
     cout << "list2: ";
     list2.print();
-    cout << " max: " << list2.max() << endl;
+    int max = list2.max();
+    cout << " max: " << max << endl;
 }
 
 void test_2()
