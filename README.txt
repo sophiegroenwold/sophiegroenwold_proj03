@@ -13,7 +13,7 @@ linked lists and BSTs; and
 This lab addresses these issues by:
 1. having the code to debug be an implementation of a linked list. Thus this lab is intended to be 
 introduced after their lab02 (which is their own implementation of a linked list) is completed. 
-2. connecting the subject matter of the code be connected to the current material of the class. 
+2. connecting the subject matter of the code to the current material of the class. 
 3. demonstrating how the use of GDB can help their debugging workflows in later labs and projects.
 4. concentrating on GDB, instead of containing two different subjects. 
 
