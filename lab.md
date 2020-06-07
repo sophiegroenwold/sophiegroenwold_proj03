@@ -136,7 +136,7 @@ Cool! So now we're inside `intlist.cpp`, specifically within `max()`. If you nee
 68              return 0;
 ```
 
-So this is definitely inside `IntList::max()`. Now we investigate our suspicion that this function is going wrong. Let's set a break points at line 72, and *continue* until then. 
+So we are definitely inside `IntList::max()`. Now we investigate our suspicion that this function is going wrong. Let's set a break points at line 72, and *continue* until then. 
 
 ``` 
 (gdb) break 72
@@ -171,7 +171,11 @@ Think about this -- does this tell us anything about what our bug might be?
 
 ### Step 3: Find the other bugs
 
-The starter code contains the bug you just found plus 3 other bugs, for a total of four. For the rest of this lab, you'll use GDB to find them. 
+The starter code contains the bug you just found plus 3 other bugs, for a total of four. For the rest of this lab, you'll use GDB to find them.
+
+The `cout` statements are there to demonstrate to you what the problem is -- don't use more of them to debug! This will benefit you in future work you complete for this class. 
+
+Feel free to use these commands as a reference:
 
 #### GDB commands:
 

@@ -8,7 +8,8 @@ using std::cout;
 
 // copy constructor
 IntList::IntList(const IntList& source) {
-    Node* ptr = source.first;
+    this -> append(source.first -> info);
+    Node* ptr = source.first -> next;
     while (ptr)
     {
         this -> append(ptr -> info);
@@ -82,9 +83,9 @@ int IntList::max() const {
 // returns average (arithmetic mean) of all values, or
 // 0 if list is empty
 double IntList::average() const {
-    if (!first) return 0.0;
-    double sum = this -> sum();
-    double count = this -> count();
+    if (!first) return 0;
+    int sum = this -> sum();
+    int count = this -> count();
     return (sum / count);
 }
 
@@ -99,16 +100,6 @@ void IntList::insertFirst(int value) {
 //Assignment operator should copy the list from the source
 //to this list, deleting/replacing any existing nodes
 IntList& IntList::operator=(const IntList& source){
-    // correct implementation:
-    // Node* a = first;
-
-    // while (a)
-    // {
-    //     a = a -> next;
-    //     delete first;
-    //     first = a;
-    // }
-
     Node* a = first;
     Node* b = a;
 
